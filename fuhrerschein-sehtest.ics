@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fielmann AG//TV//DE
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+LAST-MODIFIED:20230104T023643Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230326T192641Z
+UID:64209c3d32869dd63aae3ff2
+SUMMARY;LANGUAGE=de-CH:Führerschein-Sehtest bei Fielmann
+DTSTART;TZID=Europe/Berlin:20230329T181500
+DTEND;TZID=Europe/Berlin:20230329T183000
+STATUS:CONFIRMED
+DESCRIPTION;LANGUAGE=de-CH:Führerschein-Sehtest bei Fielmann\n\nBitte bring
+ en Sie das Antragsformular vom Strassenverkehrsamt und einen amtlichen Aus
+ weis mit.\n\nSollten Sie den Termin nicht wahrnehmen können\, sagen Sie ih
+ n bitte über diesen Link ab: https://appointments.fielmann.ch/de-CH/cancel
+ lation?appointment-id=64209c3d32869dd63aae3ff2&cancellation-token=6b99bfff
+ -ceea-439c-94e1-48a4569de93c&branch-id=001-0560&product-category=GL\n\n
+URL:https://account.fielmann.de/appointments
+LOCATION:Fielmann-Niederlassung Bern I\, Waisenhausplatz\, Waisenhausplatz 
+ 1\, CH-3011 Bern
+END:VEVENT
+END:VCALENDAR
